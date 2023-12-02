@@ -8,8 +8,8 @@ void MyTask(void * data);
 void YouTask(void * data);
 void  main (void)
 {
-    char* s_M2="LIUHAORUI";              
-    char* s_M1="22001010705";
+    char* s_M2="姓名拼音";              
+    char* s_M1="学号";
     OSInit();                   
     PC_DOSSaveReturn();             
     PC_VectSet(uCOS, OSCtxSw);          
