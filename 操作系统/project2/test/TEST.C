@@ -1,7 +1,7 @@
 #include "includes.h"
 #define  TASK_STK_SIZE   512                //任务堆栈长度
-char *s1="22001010705";
-char *s2="LIUHAORUI";
+char *s1="学号";
+char *s2="姓名拼音";
 OS_EVENT *OSSemCreate(INT16U cnt);
 OS_EVENT *OSSemDel(OS_EVENT *pevent,INT8U opt, INT8U *err);
 
@@ -102,7 +102,7 @@ void  YouTask (void *pdata)
  {
   PC_DispStr(0,++y,
         s2,
-        DISP_BGND_BLACK+DISP_FGND_WHITE );
+        DISP_BGND_BLACK+DISP_FGND_//颜色 );
   
         OSTimeDlyHMSM(0, 0, 1, 0);  //等待1秒
         count++;
@@ -117,6 +117,6 @@ void  YouTask (void *pdata)
 void Fun(INT8U x,INT8U y)
 {
  PC_DispStr(x,y,"invoked Fun()!",
-  DISP_BGND_BLACK+DISP_FGND_WHITE );
+  DISP_BGND_BLACK+DISP_FGND_//颜色 );
 }
 /************************End**************************************/
