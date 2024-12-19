@@ -1,0 +1,29 @@
+/* 设置页面主体的样式 */
+body{
+    /* 背景颜色设置为深灰色调 */
+	background: #494A5F;
+    /* 文本颜色设置为浅灰色调 */
+	color: #D5D6E2;
+    /* 字体权重设置为半粗体 */
+	font-weight: 500;
+    /* 字体大小设置为1.05倍于默认大小 */
+	font-size: 1.05em;
+    /* 设置字体系列，优先使用微软雅黑，然后是宋体，接着是Segoe UI等，最后是sans-serif系列 */
+	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
+}
+
+/* 设置超链接的样式 */
+a{
+    /* 超链接颜色设置为蓝色 */
+	color: #2fa0ec;
+    /* 移除超链接的下划线 */
+	text-decoration: none;
+    /* 移除超链接的轮廓 */
+	outline: none;
+}
+
+/* 设置超链接悬停和焦点状态下的样式 */
+a:hover,a:focus{
+    /* 在悬停或焦点状态下，超链接颜色变为深灰色 */
+	color: #74777b;
+}

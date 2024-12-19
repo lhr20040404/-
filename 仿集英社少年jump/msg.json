@@ -1,0 +1,68 @@
+{
+    "magazines": [
+      {
+        "title": "本周老年Jump 3号",
+        "price": "特别定价：290日元（含税）",
+        "details": [
+          "巻頭カラー 我的英雄学院 堀越耕平",
+          "下期新年4·5合并号，12月23日 发售预定",
+          "※电子版的销售价格不一样。"
+        ],
+        "links": ["详情", "杂志编号"],
+        "image": "images/public/mainImg_hyoushi.jpg"
+      },
+      {
+        "title": "JumpGIGA SUMMER vol.3",
+        "price": "定価：500円",
+        "details": [
+          "封面 食戟之灵 Le dessert 附田祐斗 作画：佐伯 俊 協力：森崎友紀",
+          "8月29日(木)発売!!",
+          "※电子版的销售价格不一样。"
+        ],
+        "links": ["详情", "杂志编号"],
+        "image": "images/public/newGiga.jpg"
+      },
+      {
+        "title": "最强Jump一月",
+        "price": "定価：550円",
+        "details": [],
+        "links": ["详情", "最强Jump预览"],
+        "image": "images/public/newSaikyo.jpg"
+      }
+    ],
+    "recommendations": [
+      {
+        "text": "人气杂志举办的冬季祭典，将于 12月21日、12月22日举行",
+        "image": "images/public/jfesta2020.png",
+        "link": ""
+      },
+      {
+        "text": "12月26日 《咒术回战》复制原画展交流祭在涉谷マルイ开幕！！",
+        "image": "images/public/jujutsu_gengaten.png",
+        "link": ""
+      },
+      {
+        "text": "主要演员第1期回顾 & 第2期乐趣座谈会",
+        "image": "images/public/bokuben.jpg",
+        "link": ""
+      },
+      {
+        "text": "舞台「罗刹女」网站公开中！",
+        "image": "images/public/daikokuten.png",
+        "link": ""
+      }
+    ],
+    "comic_awards": [
+      {
+        "text": "传说中的噱头漫画奖更新！12月31日 截止!",
+        "image": "images/public/gcup.png",
+        "link": ""
+      },
+      {
+        "text": "第99回手冢奖 & 第92回赤塚奖投稿受理中！",
+        "image": "images/public/bnr4.jpg",
+        "link": ""
+      }
+    ]
+  }
+  
