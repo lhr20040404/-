@@ -15,20 +15,19 @@
 	<div id="top">
 		<a href="index.html"><img src="images/logo.png" alt="老年Jump"></a>
 		<ul class="top_boton">
-			<li><a href="" target="_blank">登录</a></li>
-			<li><a href="" target="_blank">注册</a></li>
+			<li><a href="login.html" target="_blank">登录</a></li>
+			<li><a href="register.html" target="_blank">注册</a></li>
 		</ul>
 	</div>
 	<div id="nav">
 		<ul>
-			<li><a href="zassi.html">杂志</a></li>
-			<li><a href="rensai.html">连载作品</a></li>
-			<li><a href="comics.html">漫画</a></li>
-			<li><a href="mangasho.html">漫画赏</a></li>
-			<li><a href="app.html">应用・游戏</a></li>
-			<li><a href="goods.html" class="select_nav">商店・动漫</a></li>
-			<!-- <li><a href="link.html">链接</a></li> -->
-			<li><a href="404.html">链接</a></li>
+			<li><a href="zassi.html" class="nav-link">杂志</a></li>
+			<li><a href="rensai.html" class="nav-link">连载作品</a></li>
+			<li><a href="comics.html" class="nav-link">漫画</a></li>
+			<li><a href="mangasho.html" class="nav-link">漫画赏</a></li>
+			<li><a href="app.html" class="nav-link">应用・游戏</a></li>
+			<li><a href="goods.html" class="nav-link">商店・动漫</a></li>
+			<li><a href="404.html" class="nav-link">链接</a></li>
 		</ul>
 	</div>
 	<div id="notice">
@@ -45,97 +44,26 @@
 	</div>
 	<div id="app">
 		<div id="zassi_c">
-			<div class="zassi_title">
+			<div class="lhr_zassi_title">
 				<span>商店・动漫</span>
 			</div>
-			<div class="zassi_content">
+			<div class="lhr_zassi_content">
 				<div class="app_list">
 					<div class="rensai_img"><img class="pub_img" src="images/goods/goods_banner.jpg" alt=""></div>
 					<div id="resai_content">
 						<div id="rensai_top" class="pub_top">新着情報</div>
-						<ul id="now_new rensai_hr" class="jump_new_c_left_list">
-							<li>
-								<a href="">
-									<img class="list_img pub_img" src="images/public/jujutsu.jpg">
-									<span class="list_span">
-										寒假特别企划！！“咒术回战”贺年卡用画像礼物！！！<br>
-										<time class="list_time"> 12/16</time>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<img class="list_img pub_img" src="images/public/agravity.jpg">
-									<span class="list_span">
-										试读『AGRAVITY BOYS』公开了『第1回Genadai版本3to1』※期间限定配信。<br>
-										<time class="list_time"> 12/16</time>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<img class="list_img pub_img" src="images/public/zipman.jpg">
-									<span class="list_span">
-										试读《ZIPMAN!!!》公开了《002钢铁合体！！》 ※期间限定配信。<br>
-										<time class="list_time"> 12/16</time>
-									</span>
-								</a>
-							</li>
-						</ul>
+						<ul id="news-list" class="jump_new_c_left_list"></ul>
+						
 						<div id="rensai_top" class="pub_top">Jump商店</div>
-						<ul class="goods_box_list">
-							<li>
-								<img class="pub_img" src="images/goods/goods_jumpcs.png" alt="">
-								<p class="pub_app_p">Jump角色商店</p>
-								<p class="app_p">集英社角色周边购物网站！</p>
-							</li>
-							<li>
-								<img class="pub_img" src="images/goods/goods_jumpshop.png" alt="">
-								<p class="pub_app_p">Jump 商店</p>
-								<p class="app_p">集英社原创商品和动画周边，漫画和DVD，点心，全部是跳跃商品的梦想的店！</p>
-							</li>
-							<li>
-								<img class="pub_img" src="images/goods/goods_calendar.png" alt="">
-								<p class="pub_app_p">Jump日历</p>
-								<p class="app_p">可以查看很多周刊少年JUMP相关商品的发售日和活动情报哦！</p>
-							</li>
-							<div id="rensai_top" class="pub_top">动画官方网站</div>
-							<ul class="goods_list">
-								<li><img class="pub_img" src="images/goods/goods_soma.jpg" alt="">
-									<p>食戟之灵</p>
-								</li>
-								<li><img class="pub_img" src="images/goods/goods_drstone.jpg" alt="">
-									<p>Dr.STONE</p>
-								</li>
-								<li><img class="pub_img" src="images/goods/goods_kimetsu.jpg" alt="">
-									<p>鬼灭之刃</p>
-								</li>
-								<li><img class="pub_img" src="images/goods/goods_blackclover.jpg" alt="">
-									<p>黑色三叶草</p>
-								</li>
-								<li><img class="pub_img" src="images/goods/goods_haikyu.jpg" alt="">
-									<p>排球少年</p>
-								</li>
-								<li><img class="pub_img" src="images/goods/goods_heroaca.jpg" alt="">
-									<p>我的英雄学院</p>
-								</li>
-								<li><img class="pub_img" src="images/goods/goods_neverland.jpg" alt="">
-									<p>约定的梦幻岛</p>
-								</li>
-								<li><img class="pub_img" src="images/goods/goods_bokuben.jpg" alt="">
-									<p>我们无法一起学习</p>
-								</li>
-								<li><img class="pub_img" src="images/goods/goods_jimoto.jpg" alt="">
-									<p>地元是日本</p>
-								</li>
-							</ul>
-							<ul class="goods_chao">
-								<li><img src="images/goods/sanjiao.png"><a href="">ONE PIECE</a></li>
-								<li><img src="images/goods/sanjiao.png"><a href="">银魂</a></li>
-								<li><img src="images/goods/sanjiao.png"><a href="">火之丸相扑</a></li>
-							</ul>
+						<ul id="store-list" class="goods_box_list"></ul>
+						
+						<div id="rensai_top" class="pub_top">动画官方网站</div>
+						<ul id="official-sites-list" class="goods_list"></ul>
+						<ul class="goods_chao">
+							<li><img src="images/goods/sanjiao.png"><a href="">ONE PIECE</a></li>
+							<li><img src="images/goods/sanjiao.png"><a href="">银魂</a></li>
+							<li><img src="images/goods/sanjiao.png"><a href="">火之丸相扑</a></li>
 						</ul>
-
 					</div>
 				</div>
 				<div class="zassi_right">

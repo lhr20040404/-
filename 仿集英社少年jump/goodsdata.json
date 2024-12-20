@@ -1,0 +1,78 @@
+{
+    "news": [
+      {
+        "title": "寒假特别企划！！“咒术回战”贺年卡用画像礼物！！！",
+        "date": "12/16",
+        "image": "images/public/jujutsu.jpg",
+        "link": "#"
+      },
+      {
+        "title": "试读『AGRAVITY BOYS』公开了『第1回Genadai版本3to1』※期间限定配信。",
+        "date": "12/16",
+        "image": "images/public/agravity.jpg",
+        "link": "#"
+      },
+      {
+        "title": "试读《ZIPMAN!!!》公开了《002钢铁合体！！》 ※期间限定配信。",
+        "date": "12/16",
+        "image": "images/public/zipman.jpg",
+        "link": "#"
+      }
+    ],
+    "stores": [
+      {
+        "name": "Jump角色商店",
+        "description": "集英社角色周边购物网站！",
+        "image": "images/goods/goods_jumpcs.png"
+      },
+      {
+        "name": "Jump 商店",
+        "description": "集英社原创商品和动画周边，漫画和DVD，点心，全部是跳跃商品的梦想的店！",
+        "image": "images/goods/goods_jumpshop.png"
+      },
+      {
+        "name": "Jump日历",
+        "description": "可以查看很多周刊少年JUMP相关商品的发售日和活动情报哦！",
+        "image": "images/goods/goods_calendar.png"
+      }
+    ],
+    "official_sites": [
+      {
+        "name": "食戟之灵",
+        "image": "images/goods/goods_soma.jpg"
+      },
+      {
+        "name": "Dr.STONE",
+        "image": "images/goods/goods_drstone.jpg"
+      },
+      {
+        "name": "鬼灭之刃",
+        "image": "images/goods/goods_kimetsu.jpg"
+      },
+      {
+        "name": "黑色三叶草",
+        "image": "images/goods/goods_blackclover.jpg"
+      },
+      {
+        "name": "排球少年",
+        "image": "images/goods/goods_haikyu.jpg"
+      },
+      {
+        "name": "我的英雄学院",
+        "image": "images/goods/goods_heroaca.jpg"
+      },
+      {
+        "name": "约定的梦幻岛",
+        "image": "images/goods/goods_neverland.jpg"
+      },
+      {
+        "name": "我们无法一起学习",
+        "image": "images/goods/goods_bokuben.jpg"
+      },
+      {
+        "name": "地元是日本",
+        "image": "images/goods/goods_jimoto.jpg"
+      }
+    ]
+  }
+  

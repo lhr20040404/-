@@ -15,20 +15,20 @@
 	<div id="top">
 		<a href="index.html"><img src="images/logo.png" alt="老年Jump"></a>
 		<ul class="top_boton">
-			<li><a href="" target="_blank">登录</a></li>
-			<li><a href="" target="_blank">注册</a></li>
+			<li><a href="login.html" target="_blank">登录</a></li>
+			<li><a href="register.html" target="_blank">注册</a></li>
+			
 		</ul>
 	</div>
 	<div id="nav">
 		<ul>
-			<li><a href="zassi.html">杂志</a></li>
-			<li><a href="rensai.html">连载作品</a></li>
-			<li><a href="comics.html">漫画</a></li>
-			<li><a href="mangasho.html">漫画赏</a></li>
-			<li><a href="app.html" class="select_nav">应用・游戏</a></li>
-			<li><a href="goods.html">商店・动漫</a></li>
-			<!-- <li><a href="link.html">链接</a></li> -->
-			<li><a href="404.html">链接</a></li>
+			<li><a href="zassi.html" class="nav-link">杂志</a></li>
+			<li><a href="rensai.html" class="nav-link">连载作品</a></li>
+			<li><a href="comics.html" class="nav-link">漫画</a></li>
+			<li><a href="mangasho.html" class="nav-link">漫画赏</a></li>
+			<li><a href="app.html" class="nav-link">应用・游戏</a></li>
+			<li><a href="goods.html" class="nav-link">商店・动漫</a></li>
+			<li><a href="404.html" class="nav-link">链接</a></li>
 		</ul>
 	</div>
 	<div id="notice">
@@ -45,43 +45,15 @@
 	</div>
 	<div id="app">
 		<div id="zassi_c">
-			<div class="zassi_title">
+			<div class="zassi_title_lhr705">
 				<span>应用·游戏</span>
 			</div>
-			<div class="zassi_content">
+			<div class="zassi_content_lhr705">
 				<div class="app_list">
 					<div class="rensai_img"><img class="pub_img" src="images/app/app_banner.jpg" alt=""></div>
 					<div id="resai_content">
 						<div id="rensai_top" class="pub_top">新着情報</div>
-						<ul id="now_new rensai_hr" class="jump_new_c_left_list">
-							<li>
-								<a href="">
-									<img class="list_img pub_img" src="images/app/kisekae.jpg">
-									<span class="list_span">
-										圣诞快乐★银世界的12月日历壁纸新到达！<br>
-										<time class="list_time"> 12/16</time>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<img class="list_img pub_img" src="images/app/kisekae.jpg">
-									<span class="list_span">
-										祝·剧场版公开决定★替换跳跃『鬼灭之刃』"复古艺术风"NEW壁纸&amp;图标组套新到!!<br>
-										<time class="list_time"> 12/16</time>
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<img class="list_img pub_img" src="images/app/kisekae.jpg">
-									<span class="list_span">
-										秋色时尚♪新的11月日历壁纸！<br>
-										<time class="list_time"> 12/16</time>
-									</span>
-								</a>
-							</li>
-						</ul>
+						<ul id="news-list" class="jump_new_c_left_list"></ul>
 						<div id="rensai_top" class="pub_top">Jump应用</div>
 						<ul class="jumpapp_list">
 							<li>
@@ -105,6 +77,8 @@
 									class="app_site">网站</a>
 								<p class="app_p">独立制作人作品4000话以上！流派完全自由！谁都可以连载！</p>
 							</li>
+
+
 							<li>
 								<img class="pub_img" src="images/app/app_mawashiyomi.png" alt="">
 								<p class="pub_app_p">Jumping cat</p>
@@ -191,7 +165,12 @@
 		</div>
 	</div>
 	</div>
-	
+	<button id="returnTop" title="返回顶部" style="display: none;">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+			<path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.59 5.58L20 12l-8-8-8 8z"/>
+		</svg>
+		返回顶部
+	</button>
 	</div>
 	<img src="images/tianyi.gif" id="tianyi">
 	<img src="images/public/returnTop.png" id="returnTop">

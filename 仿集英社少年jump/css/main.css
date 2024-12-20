@@ -51,6 +51,9 @@ a {
 	display: none;
 }
 
+
+
+
 /* ****************************************************
 					index.html
 **************************************************** */
@@ -144,7 +147,9 @@ a {
 #nav ul li a:hover {
 	background-color: #66CCFF;
 	background-image: linear-gradient(180deg, #7ef3c9, #66ccff);
+	font-weight: bold;
 }
+
 
 /* 公告栏样式 */
 #notice {
@@ -921,29 +926,61 @@ a {
 	padding-top: 5px;
 }
 
+#returnTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#returnTop:hover {
+    background-color: #eaeaea;
+}
+
+#returnTop svg {
+    width: 100%;
+    height: auto;
+}
 /* ****************************************************
 					goods.html
 **************************************************** */
 
 /* 定义 .goods_box_list 类的样式，包括宽度和高度 */
 .goods_box_list {
-	width: 700px;
-	height: 1000px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center; /* 可选，保证内容居中 */
 }
+
 
 /* 定义 .goods_box_list 列表项的样式，包括宽度、高度、浮动和外边距 */
 .goods_box_list li {
-	width: 204px;
-	height: 320px;
-	float: left;
-	margin: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    padding: 0;
+    width: 200px; /* 适当设置宽度 */
+    box-sizing: border-box;
 }
+
 
 /* 定义 .goods_box_list 列表项中 img 元素的样式，包括显示方式、宽度和水平居中 */
 .goods_box_list img {
 	display: block;
 	width: 184px;
 	margin: 0 auto;
+}
+
+.goods_box_list::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 /* 定义 .goods_list 列表项的样式，包括宽度、高度、浮动和外边距 */
